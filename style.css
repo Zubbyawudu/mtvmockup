@@ -1,0 +1,127 @@
+/*                         Navbar Container                  */
+
+.navbar_container{
+  /* border: solid yellow; */
+  margin: 10px;
+  height: 64px;
+  background-color: rgb(190, 57, 57);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+.navbar_image{
+  width: 100%;
+
+}
+
+.navbar_icons{
+  /* border: solid purple; */
+  width: 70%;
+  margin: 10px;
+  display: flex;
+}
+
+.btn_container{
+  /* border: solid white; */
+  width: 30%;
+  margin: 10px;
+}
+
+.dropdown_logo{
+  /* border: solid white; */
+  background-color: transparent;
+  width: 10%;
+  height: 30;
+}
+.mtvlogo{
+  width: 100%;
+  margin-right: 70%;
+}
+.btnLogin{
+  margin-top: 5px;
+  width: 100%;
+  height: 70%;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+
+}
+/*                           Image Container                        */
+
+.image_container{
+  /* border: solid green; */
+  margin: 10px;
+  width:100%;
+}
+
+.lady{
+  width: 100%;
+}
+
+
+/*                           Background Image                   */
+
+body{
+  background-image: url(https://images.paramount.tech/uri/mgid:arc:imageassetref:mtv.com:d2906a58-a278-499a-af13-93a44e50f404?format=webp);
+  background-size: cover;
+
+}
+
+
+
+/*                         Episodes container                       */
+
+.episode_container{
+  /* border: solid blue; */
+  margin: 10px;
+  height: 300px;
+  width: 100%;
+  
+  
+}
+.episode1{
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  padding: 12px;
+  
+}
+.mainEpisodes{
+  /* border: solid coral; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 208px;
+  padding: 12px;
+}
+h2{
+  color: white;
+  margin:2px 12px;
+  /* border: solid cyan; */
+  
+}
+.home_turf{
+  margin-right: 40px;
+  /* border: solid white; */
+  color: white;
+}
+
+.jersey_shore{
+  margin-right: 40px;
+  /* border: solid white; */
+  color: white;
+}
+
+.surprised{
+  margin-right: 40px;
+  /* border: solid white; */
+  color: white;
+}
+.shocked{
+  margin-right: 40px;
+  /* border: solid white; */
+  color: white;
+}
